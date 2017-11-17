@@ -1,0 +1,75 @@
+//FONTS//
+$primary_font: 'Open Sans Condensed', sans-serif;
+$secondary_font: 'Meddon', cursive;
+//COLORS//
+$primary_color: #C7999B;
+$secondary_color: #e1e1e1;
+
+footer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+    .media {
+        width: 3%;
+        cursor: pointer;
+        
+        &:hover {
+            background-color: $primary_color;
+            border-radius: 100%;
+        }
+    }
+    .footer_reg {
+        text-transform: uppercase;
+        margin: 10px;
+        font-size: 15px;
+        font-family: $primary_font;
+         letter-spacing: 2px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    footer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+    .media {
+        width: 5%;
+        cursor: pointer;
+    }
+    .footer_reg {
+        text-transform: uppercase;
+        margin: 10px;
+        font-size: 15px;
+    }
+}
+
+}
+
+@media screen and (max-width: 425px) {
+    
+    footer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+    .media {
+        width: 11%;
+        cursor: pointer;
+    }
+    .footer_reg {
+        text-transform: uppercase;
+        margin: 10px;
+        font-size: 15px;
+    }
+}
+
+}

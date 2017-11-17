@@ -1,0 +1,341 @@
+@import "nav.css";
+@import "footer.css";
+@import "cards.css";
+@import "timeline.css";
+@import "charts.css";
+@import "bar.css";
+
+//FONTS//
+$primary_font: 'Open Sans Condensed', sans-serif;
+$secondary_font: 'Meddon', cursive;
+//COLORS//
+$primary_color: #C7999B;
+$secondary_color: #e1e1e1;
+
+
+body {
+    margin: 0 auto;
+    height: auto;
+      
+}
+
+.overlay {
+
+}
+
+#banner_home {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/banner5.jpg);       background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1, h2, h4, h5 {
+    color: black;
+    text-align: center;
+    width: 60%;
+    font-family: "Open Sans Condensed", sans-serif;
+    letter-spacing: 5px;
+    margin: 40px auto;
+    margin-bottom: auto;
+    text-transform: uppercase;
+    
+    h3 {
+         margin: 0px auto;
+        
+    }
+}
+
+
+.underline {
+    margin: 0 auto;
+    display: flex;
+    padding-top: 10px;
+}
+
+p {
+    font-family: $primary_font;
+    text-align: center;
+}
+
+
+
+#intro {
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+    
+    .intro_pic {
+        width: 100%;
+    }
+    
+}
+
+#information {
+    width: 70%;
+    margin: 55px auto;
+    text-align: center;
+    height: 275px;
+    
+    .infor_text {
+        margin: 40px 17px 17px 17px;
+        
+        }
+    }
+
+#skills {
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/banner3.jpg);        
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#coding {
+    height: 500px;
+    widows: 100%;
+}
+
+#contact {
+    height: 430px;
+    width: 100%;
+    text-align: center;
+    
+    
+    input {
+        outline-color: $secondary_color;
+        
+        &:focus {
+            outline-color: $primary_color;
+        }
+    }
+    
+    .form {
+        width: 30%;
+        height: 50px;
+        margin: 10px;
+        color: $secondary_color;
+        font-family: $primary_font;
+        font-size: 15px;
+    }
+    .form_message {
+        width: 30%;
+        height: 50px;
+        margin: 10px;
+        color: $secondary_color;
+        font-family: $primary_font;
+        font-size: 15px;
+        
+    }
+
+    button {
+        width: 10%;
+        height: 50px;
+        justify-content: center;
+        margin: 10px;
+        border-style: none;
+        color: black;
+        font-family: $primary_font;
+        font-size: 15px;
+        
+        &:focus {
+            outline-color: $primary_color;
+        }
+    }
+}
+
+//desktop 
+
+@media only screen and (max-width: 1024px) {
+    
+    
+        #information {
+    width: 70%;
+    margin: 42px auto;
+    text-align: center;
+    height: 325px;
+}
+
+    
+    section {
+    display: table;
+    width: 55%;
+    margin: 0 auto;
+}
+    
+    #contact {
+    height: 430px;
+    width: 100%;
+    text-align: center;
+    
+    
+    input {
+        outline-color: $secondary_color;
+        
+        &:focus {
+            outline-color: $primary_color;
+        }
+    }
+    
+    .form {
+        width: 45%;
+        height: 50px;
+        margin: 10px;
+        color: $secondary_color;
+        font-family: $primary_font;
+        font-size: 15px;
+    }
+    .form_message {
+        width: 45%;
+        height: 50px;
+        margin: 10px;
+        color: $secondary_color;
+        font-family: $primary_font;
+        font-size: 15px;
+        
+    }
+
+    button {
+        width: 15%;
+        height: 50px;
+        justify-content: center;
+        margin: 10px;
+        border-style: none;
+        color: black;
+        font-family: $primary_font;
+        font-size: 15px;
+        
+        &:focus {
+            outline-color: $primary_color;
+        }
+    }
+    
+
+       
+}
+}
+
+//tablet
+
+@media only screen and (max-width: 768px) {
+    
+    .intro .intro_pic {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+    
+#information {
+    width: 60%;
+    margin: 12px auto;
+    text-align: center;
+    height: 435px;
+}
+    #information .infor_text {
+    margin: 25px 17px 17px 17px;
+}
+
+        .graph-cont {
+    width: calc(100% - 40px);
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+    
+        .form {
+        width: 50% !important;
+        height: 50px;
+        margin: 10px;
+        color: $secondary_color;
+        font-family: $primary_font;
+        font-size: 15px;
+    }
+    .form_message {
+        width: 50% !important;
+        height: 50px;
+        margin: 10px;
+        color: $secondary_color;
+        font-family: $primary_font;
+        font-size: 15px;
+        
+    }
+    #contact button {
+    width: 20%;
+    height: 50px;
+    justify-content: center;
+    margin: 10px;
+    border-style: none;
+    color: black;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 15px;
+}
+    
+}
+
+//mobile 
+
+@media only screen and (max-width: 425px) {
+ 
+#information {
+    width: 60%;
+    margin: 55px auto;
+    text-align: center;
+    height: 755px;
+    }
+    
+     .form {
+        width: 67% !important;
+
+    }
+    .form_message {
+        width: 67% !important;
+
+        
+    }
+    #contact button {
+    width: 30%;
+
+}
+    
+}
+
+//mobile Small
+
+@media only screen and (max-width: 320px) {
+    
+
+#information {
+    width: 60%;
+    margin: 55px auto;
+    text-align: center;
+    height: 1015px;
+    }
+    
+    #contact {
+    height: 470px;
+    width: 100%;
+    text-align: center;
+        
+    }
+     .form {
+        width: 67% !important;
+
+    }
+    .form_message {
+        width: 67% !important;
+
+        
+    }
+    #contact button {
+    width: 30%;
+
+}
+    
+}
+
+
