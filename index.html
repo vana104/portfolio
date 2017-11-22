@@ -24,7 +24,9 @@
       
     <link href="css/style.css" rel="stylesheet" type="text/css">
     
-        <link href="css/timeline.css" rel="stylesheet" type="text/css">
+    <link href="css/timeline.css" rel="stylesheet" type="text/css">
+    
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
 
       
 
@@ -62,18 +64,22 @@
    
     
     
-    <h1>Welcome</h1>
+    <h1 class="wow fadeInUp">Welcome</h1>
     <img src="./img/header_underline.png" class="underline"> 
     
     
     
 
-<div id="intro">
+<div id="intro" class="wow fadeInUp">
     <img src="img/intro.png" class="intro_pic">
+    <img src="img/intro_pic_small.png" class="intro_pic_small">
 </div>    
+    
+    <div id="port_nav">
+        <h1 class="wow fadeInUp">Portfolio Navigation</h1>
+    <img src="./img/header_underline.png" class="underline"> </div>
 
-
-<div id="wrapper">
+<div id="wrapper" class="wow fadeInUp">
 
   <div class="cols">
 			<div class="col" ontouchstart="this.classList.toggle('hover');">
@@ -123,8 +129,8 @@
 			</div>
  </div>
     </div>
-
-    <div id="information">
+    
+    <div id="information" class="wow fadeInUp">
     
     <h1 class="infor_header">ABOUT ME</h1>
     <img src="./img/header_underline.png" class="underline">    
@@ -134,12 +140,12 @@
 </div>
 
 
-<div id="education">
+<div id="education" class="wow fadeInUp">
         <h1 class="education_header">EDUCATION</h1>
     <img src="./img/header_underline.png" class="underline">
 </div>
 
-<div id="timeline">
+<div id="timeline" class="wow fadeInUp">
 
          <div class="roww example-centered">
 
@@ -194,15 +200,15 @@
 </div>
    
     
-    <div id="skills">
+    <div id="skills" >
 
         
   </div>      
-        
+     
             <h1>ADOBE SKILLS</h1>
         <img src="./img/header_underline.png" class="underline">
          <section class="bg-alpha">
-  <div>
+ <div class="wow fadeInUp">
 <div class="graph-donut" data-percent="90">
   <span class="percent"></span><p class="program">INDESIGN</p>
 </div>
@@ -227,12 +233,10 @@
        <div class="graph-donut" data-percent="50">
   <span class="percent"></span><p class="program">REAPER</p>
 </div>  
-      
- 
-  </div>
+   </div>   
         </section>
    
-  <div id="coding">
+  <div id="coding" class="wow fadeInUp">
     
 <div class="graph-cont">
   <h1>CODING SKILLS</h1>
@@ -261,7 +265,7 @@
     
     </div>  
     
-    <div id="contact">
+    <div id="contact" class="wow fadeInUp">
      <h1>GET IN TOUCH</h1>
     <img src="./img/header_underline.png" class="underline">
     <br>
@@ -283,17 +287,17 @@
     
     </div>
     
-<footer>
-    <a href="https://web.facebook.com/annelet.vanheerden1">
+<footer class="wow fadeInUp">
+    <a href="https://web.facebook.com/annelet.vanheerden1" target="_blank">
     <img src="img/fb.png" class="media"></a>
       
-    <a href="https://www.instagram.com/anneletvanheerden/">   
+    <a href="https://www.instagram.com/anneletvanheerden/" target="_blank">   
     <img src="img/insta.png" class="media" ></a> 
     
-    <a href="https://za.pinterest.com/anneletvanheerd/">    
+    <a href="https://za.pinterest.com/anneletvanheerd/" target="_blank">    
     <img src="img/pin.png"class="media"></a>
         
-    <a href="https://www.linkedin.com/in/annelet-van-heerden-39822b151/">    
+    <a href="https://www.linkedin.com/in/annelet-van-heerden-39822b151/" target="_blank">    
     <img src="img/link.png"class="media"></a> 
     <br>
     <p class="footer_reg">anneletvanheerden&reg;2017</p>
@@ -301,8 +305,9 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
       <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
-                <script type="text/javascript" src="js/main.js"></script>
-
+    <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
       
 </body>
 </html>
