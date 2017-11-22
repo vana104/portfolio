@@ -33,9 +33,14 @@ a {
   margin-top: 55px;
   display: flex;
   font-weight: bold;
-  text-decoration: underline; }
+  border-style: solid;
+  width: 20%;
+  border-width: 2px;
+  justify-content: center;
+  background-color: lightgray; }
   .pdf:hover {
-    color: #C7999B; }
+    color: #A0787C;
+    background-color: white; }
 
 .row_2 {
   width: 100%;

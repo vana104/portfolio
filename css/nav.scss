@@ -5,11 +5,11 @@
   }
 }
 
-// colores
+// COLORS
 $color: #8f8f8f;
-$color2: #C7999B;
+$color2: #A0787C;
 
-// Navigation
+// MAIN NAVIGATION
 .main_h {
   position: fixed;
   max-height: 57px;
@@ -28,6 +28,7 @@ $color2: #C7999B;
   }
 }
 
+//OPEN
 .open-nav {
   max-height: 400px !important;
   .mobile-toggle {
@@ -99,6 +100,8 @@ nav {
   }
 }
 
+//MOBILE BURGER-MENU
+
 .mobile-toggle {
   display: none;
   cursor: pointer;
@@ -132,7 +135,7 @@ nav {
 }
 
 
-// Page Style
+// PAGE STYLE
 * {
   box-sizing: border-box;
 }
@@ -204,6 +207,10 @@ a {
   }
 }
 
+//RESPONSIVE TWEAKING
+
+//DESKTOP SMALL
+
 @media only screen and (max-width: 1024px) {
 
 .logo_text {
@@ -211,6 +218,7 @@ a {
     }
 }
 
+//TABLET
 
 @media only screen and (max-width: 768px) {
     
@@ -221,6 +229,8 @@ a {
 }
 }
 
+//MOBILE LARGE
+
 @media only screen and (max-width: 425px) {
 
   .logo_text {
@@ -228,6 +238,8 @@ a {
     margin: 0;
 }
 }
+
+//MOBILE SMALL
 
 @media only screen and (max-width: 320px) {
 

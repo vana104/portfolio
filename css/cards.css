@@ -2,8 +2,10 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-a.view_work:hover {
-  color: black; }
+a.view_work {
+  font-size: 20px; }
+  a.view_work:hover {
+    color: black; }
 
 #wrapper {
   width: 100%;

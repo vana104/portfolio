@@ -2,7 +2,7 @@
 $primary_font: 'Open Sans Condensed', sans-serif;
 $secondary_font: 'Meddon', cursive;
 //COLORS//
-$primary_color: #C7999B;
+$primary_color: #A0787C;
 $secondary_color: #e1e1e1;
 
 .graph-cont{
@@ -97,7 +97,9 @@ pre{
   margin: 0;
 }
 
-//responsive
+//RESPONSIVE
+
+//TABLET
 
 @media only screen and (max-width: 768px) {
     
@@ -113,5 +115,3 @@ pre{
     font-family: $primary_font;
 }
 }
-
-@media only screen and (max-width: 425px) {}

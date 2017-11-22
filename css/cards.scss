@@ -11,12 +11,17 @@ $secondary_color: #e1e1e1;
           box-sizing: border-box;
 }
 
+//BACK LINK
+
 a.view_work {
+       
+font-size: 20px;
     
     &:hover {
         color: black;
     }
 }
+
 
 #wrapper{
   width: 100%;
@@ -50,6 +55,8 @@ a.view_work {
 	        perspective: 1000px;
 }
 
+//ROTATION ANIMATIONS
+
 .front,
 .back{
   background-size: cover;
@@ -70,9 +77,9 @@ a.view_work {
 
 }
 .front {
-        background-image: url(../img/marble.jpg);
+    background-image: url(../img/marble.jpg);
     background-position: center;
-        width: 100%;
+    width: 100%;
     background-size: auto;
 }
 
@@ -182,17 +189,25 @@ a.view_work {
     font-weight: 300;
 }
 
+//RESPONSIVENESS
+
+//DESKTOP SMALL
+
 @media screen and (max-width: 1024px){
   .col{
     width: 33%;
   }
 }
 
+//TABLET
+
 @media screen and (max-width: 768){
   .col{
         width: 35%;
   }
 }
+
+//MOBILE LARGE
 
 @media screen and (max-width: 425px){
   .col{

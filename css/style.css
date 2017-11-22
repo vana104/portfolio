@@ -39,6 +39,10 @@ p {
   text-align: center;
   font-size: 17px; }
 
+button:hover {
+  box-shadow: 0 0 3px #C7999B;
+  font-weight: bold; }
+
 #intro {
   width: 80%;
   overflow: hidden;
@@ -104,8 +108,9 @@ p {
     border-style: none;
     color: black;
     font-family: "Open Sans Condensed", sans-serif;
+    cursor: pointer;
     font-size: 15px; }
-    #contact button:focus {
+    #contact button:active {
       outline-color: #C7999B; }
 
 @media only screen and (max-width: 1024px) {

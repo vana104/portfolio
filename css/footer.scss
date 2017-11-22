@@ -1,8 +1,9 @@
 //FONTS//
 $primary_font: 'Open Sans Condensed', sans-serif;
 $secondary_font: 'Meddon', cursive;
+
 //COLORS//
-$primary_color: #C7999B;
+$primary_color: #A0787C;
 $secondary_color: #e1e1e1;
 
 footer {
@@ -12,6 +13,7 @@ footer {
     margin: 0 auto;
     margin-top: 40px;
     
+    //SOCIAL MEDIA ICONS
     .media {
         width: 3%;
         cursor: pointer;
@@ -29,6 +31,10 @@ footer {
          letter-spacing: 2px;
     }
 }
+
+//RESPONSIVE
+
+//TABLET
 
 @media screen and (max-width: 768px) {
     
@@ -51,6 +57,8 @@ footer {
 }
 
 }
+
+//MOBILE LARGE
 
 @media screen and (max-width: 425px) {
     

@@ -1,11 +1,14 @@
+//IMPORTS
+
 @import "nav.css";
 @import "footer.css";
 
 //FONTS//
 $primary_font: 'Open Sans Condensed', sans-serif;
 $secondary_font: 'Meddon', cursive;
+
 //COLORS//
-$primary_color: #C7999B;
+$primary_color: #A0787C;
 $secondary_color: #e1e1e1;
 
 * {
@@ -37,19 +40,28 @@ body {
     background-size: cover;
 }
 
+//LINKS
+
 a {
   color: #333;
 }
     .pdf {
-        margin-top: 55px;
-        display: flex;
-        font-weight: bold;
-        text-decoration: underline;
+    margin-top: 55px;
+    display: flex;
+    font-weight: bold;
+    border-style: solid;
+    width: 20%;
+    border-width: 2px;
+    justify-content: center;
+        background-color: lightgray;
         
         &:hover {
             color: $primary_color;
+            background-color: white;
         }
     }
+
+//GALLERY DISPLAY
 
 .row_2 {
   width: 100%;
@@ -97,6 +109,9 @@ a {
   padding: 0;
   line-height: 0;
 }
+
+//IMAGE HOVER
+
 .gallery ul li a:before {
   position: absolute;
   width: 32px;
@@ -131,6 +146,8 @@ a {
 .gallery ul li a:hover:after {
   opacity: 1;
 }
+
+//IMAGE OPEN WITH DESCRIPTION
 
 .port {
   position: absolute;
@@ -186,6 +203,8 @@ a {
   transition-delay: 0.5s;
 }
 
+//CLOSE BUTTON
+
 .close {
   width: 21px;
   height: 21px;
@@ -207,13 +226,9 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-//responsive
+//RESPONSIVE
 
-@media only screen and (max-width: 1024px) {
-
-
-}
-
+//TABLET
 
 @media only screen and (max-width: 768px) {
     
@@ -267,6 +282,8 @@ a {
 }
 }
 
+//MOBILE LARGE
+
 @media only screen and (max-width: 425px) {
     
 .gallery ul li {
@@ -295,6 +312,8 @@ a {
 
 }
 
+//MOBILE MEDIUM
+
 @media only screen and (max-width: 375px) {
     
 .gallery ul li {
@@ -312,6 +331,8 @@ a {
 
 
     }
+
+//MOBILE SMALL
 
 @media only screen and (max-width: 320px) {
     

@@ -1,3 +1,4 @@
+//IMPORTS
 @import "nav.css";
 @import "footer.css";
 @import "cards.css";
@@ -19,10 +20,6 @@ body {
       
 }
 
-.overlay {
-
-}
-
 #banner_home {
     width: 100%;
     height: 950px;
@@ -32,6 +29,8 @@ body {
     background-size: cover;
     
 }
+
+//HEADERS
 
 h1, h2, h4, h5 {
     color: black;
@@ -49,6 +48,7 @@ h1, h2, h4, h5 {
     }
 }
 
+//HEADER UNDERLINE DIMONDS
 
 .underline {
     margin: 0 auto;
@@ -62,7 +62,15 @@ p {
     font-size: 17px;
 }
 
+button {
+    
+    &:hover {
+        box-shadow: 0 0 3px $primary_color;
+        font-weight: bold;
+        }
+}
 
+//IMAGE & DESCRIPTION
 
 #intro {
     width: 80%;
@@ -82,10 +90,14 @@ p {
         
 }
 
+//CARDS FLIP - PORTFOLIO NAVIGATION
+
 #port_nav {
-        margin-bottom: 20px;
+    margin-bottom: 20px;
     margin-top: 65px;
 }
+
+//ABOUT ME
 
 #information {
     width: 70%;
@@ -99,6 +111,7 @@ p {
         }
     }
 
+
 #skills {
     height: 600px;
     width: 100%;
@@ -109,10 +122,14 @@ p {
     background-size: cover;
 }
 
+//BAR AND PIE GRAPH
+
 #coding {
     height: 500px;
     widows: 100%;
 }
+
+//CONTACT FORM
 
 #contact {
     height: 430px;
@@ -154,15 +171,20 @@ p {
         border-style: none;
         color: black;
         font-family: $primary_font;
+        cursor: pointer;
         font-size: 15px;
         
-        &:focus {
+    
+      &:active {
             outline-color: $primary_color;
+            
         }
     }
 }
 
-//desktop 
+//RESPONSIVE
+
+//DESKTOP SMALL
 
 @media only screen and (max-width: 1024px) {
     
@@ -243,7 +265,7 @@ p {
 }
 }
 
-//tablet
+//TABLET
 
 @media only screen and (max-width: 768px) {
     
@@ -279,7 +301,7 @@ display: none !important;
     margin: 0 auto;
 }
     
-        .form {
+.form {
         width: 50% !important;
         height: 50px;
         margin: 10px;
@@ -305,11 +327,13 @@ display: none !important;
     color: black;
     font-family: "Open Sans Condensed", sans-serif;
     font-size: 15px;
+            
 }
     
 }
 
-//mobile 
+
+//MOBILE LARGE
 
 @media only screen and (max-width: 425px) {
     
@@ -351,7 +375,7 @@ display: none !important;
     
 }
 
-//mobile Small
+//MOBILE MEDIUM
 
 @media only screen and (max-width: 375px) {
     
@@ -370,6 +394,8 @@ display: none !important;
     }
     
 }
+
+//MOBILE SMALL
 
 @media only screen and (max-width: 320px) {
     

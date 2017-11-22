@@ -210,7 +210,7 @@ $('nav a').click(function(event) {
 
   var EasyPieChart = function(el, opts) {
     var defaultOptions = {
-      barColor: '#ff675f',
+      barColor: '#A0787C',
       trackColor: '#e1e1e3',
       scaleColor: '#e1e1e3',
       scaleLength: 0,
@@ -314,7 +314,7 @@ $('.bg-alpha').bind('inview', function(event, visible, visiblePartX, visiblePart
         if (visible) {
             $('.graph-donut').easyPieChart({
               easing: 'easeOutBounce',
-              barColor: '#C7999B',
+              barColor: '#A0787C',
               rackColor: '#e1e1e1',
               scaleColor: '#e1e1e1',
               scaleLength: 0,

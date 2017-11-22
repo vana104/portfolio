@@ -1,5 +1,6 @@
+//COLORS
 $primary-color: #e1e1e1;
-$primary-color-hover: #C7999B;
+$primary-color-hover: #A0787C;
 
 //FONTS//
 $primary_font: 'Open Sans Condensed', sans-serif;
@@ -53,7 +54,7 @@ h3.timeline-title {
         }
     }
 
-    /*----- TIMELINE ITEM -----*/
+    //ITEM
 
     .timeline-item {
         padding-left: 40px;
@@ -63,7 +64,7 @@ h3.timeline-title {
         }
     }
 
-    /*----- TIMELINE INFO -----*/
+    //INFORMATION
 
     .timeline-info {
         font-size: 12px;
@@ -74,7 +75,7 @@ h3.timeline-title {
         white-space: nowrap;
         font-family: $primary-font;
     }
-    /*----- TIMELINE MARKER -----*/
+    //MARKER
 
     .timeline-marker {
         position: absolute;
@@ -116,7 +117,7 @@ h3.timeline-title {
         
             }
 
-    /*----- TIMELINE CONTENT -----*/
+    //CONTENT
 
     .timeline-content {
         padding-bottom: 40px;
@@ -125,7 +126,7 @@ h3.timeline-title {
         }
     }
 
-    /*----- TIMELINE PERIOD -----*/
+   //TIMELINE PERIOD
     
     .period {
         padding: 0;
@@ -275,6 +276,10 @@ h3.timeline-title {
             }
         }
 
+//RESPONSIVE
+
+//TABLET
+
 @media only screen and (max-width: 768px) {
     
     #timeline {
@@ -291,6 +296,8 @@ h3.timeline-title {
         width: 100%;
     }
 }
+
+//MOBILE LARGE
 
 @media only screen and (max-width: 425px) {
 .timeline {
