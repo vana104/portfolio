@@ -19,8 +19,8 @@ body {
 
 #banner {
   width: 100%;
-  height: 700px;
-  background-image: url(../img/banner3.jpeg);
+  height: 900px;
+  background-image: url(../img/print.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -188,6 +188,9 @@ a {
 
 .smaller {
   width: 38% !important; }
+
+.smaller2 {
+  width: 36% !important; }
 
 .packaging {
   width: 39% !important; }

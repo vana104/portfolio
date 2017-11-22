@@ -25,8 +25,8 @@ body {
 
 #banner_home {
     width: 100%;
-    height: 700px;
-    background-image: url(../img/banner5.jpg);       background-attachment: fixed;
+    height: 950px;
+    background-image: url(../img/banner_test.jpg);       background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,6 +59,7 @@ h1, h2, h4, h5 {
 p {
     font-family: $primary_font;
     text-align: center;
+    font-size: 17px;
 }
 
 
@@ -69,9 +70,21 @@ p {
     margin: 0 auto;
     
     .intro_pic {
-        width: 100%;
+    width: 95%;
+    
+    display: inline-block;
+    
     }
     
+    .intro_pic_small {
+        display: none;
+    }
+        
+}
+
+#port_nav {
+        margin-bottom: 20px;
+    margin-top: 65px;
 }
 
 #information {
@@ -153,6 +166,16 @@ p {
 
 @media only screen and (max-width: 1024px) {
     
+    #intro {
+        width: 100%;
+        
+        .intro_pic {
+            width: 95%;
+    margin: 0 auto;
+    display: flex;
+  
+        }
+    }
     
         #information {
     width: 70%;
@@ -224,11 +247,20 @@ p {
 
 @media only screen and (max-width: 768px) {
     
-    .intro .intro_pic {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-}
+    .intro_pic {
+
+display: none !important;
+    
+    }
+    
+    .intro_pic_small {
+    
+    margin-top: 20px;
+    margin: auto;
+    width: 60%;
+    display: block !important;
+        
+    }
     
 #information {
     width: 60%;
@@ -280,12 +312,14 @@ p {
 //mobile 
 
 @media only screen and (max-width: 425px) {
+    
+    
  
 #information {
     width: 60%;
     margin: 55px auto;
     text-align: center;
-    height: 755px;
+    height: auto;
     }
     
      .form {
@@ -301,10 +335,41 @@ p {
     width: 30%;
 
 }
+    .intro_pic {
+
+display: none !important;
+    
+    }
+    
+    .intro_pic_small {
+   
+    margin-top: 20px;
+    width: 95%;
+    display: block !important;
+        
+    }
     
 }
 
 //mobile Small
+
+@media only screen and (max-width: 375px) {
+    
+    .intro_pic {
+
+display: none !important;
+    
+    }
+    
+    .intro_pic_small {
+    
+    margin-top: 20px;
+    width: 95%;
+    display: block !important;
+        
+    }
+    
+}
 
 @media only screen and (max-width: 320px) {
     
@@ -313,7 +378,7 @@ p {
     width: 60%;
     margin: 55px auto;
     text-align: center;
-    height: 1015px;
+    height: auto;
     }
     
     #contact {
@@ -334,6 +399,26 @@ p {
     #contact button {
     width: 30%;
 
+}
+    #intro {
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+    
+    .intro_pic {
+
+display: none;
+    
+    }
+    
+    .intro_pic_small {
+    
+    margin-top: 20px;
+    width: 95%;
+    display: block;
+        
+    }
+        
 }
     
 }

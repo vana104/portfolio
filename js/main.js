@@ -309,47 +309,46 @@ $('nav a').click(function(event) {
 
 }));
 
-$('.graph-donut').easyPieChart({
-  easing: 'easeOutBounce',
-  barColor: '#C7999B',
-  rackColor: '#e1e1e1',
-  scaleColor: '#e1e1e1',
-  scaleLength: 0,
-  lineCap: 'square',
-  lineWidth: 5,
-  size: 152,
-  onStep: function(from, to, percent) {
 
-    $(this.el).find('.percent').text(Math.round(percent));
-
-  }
+$('.bg-alpha').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
+        if (visible) {
+            $('.graph-donut').easyPieChart({
+              easing: 'easeOutBounce',
+              barColor: '#C7999B',
+              rackColor: '#e1e1e1',
+              scaleColor: '#e1e1e1',
+              scaleLength: 0,
+              lineCap: 'square',
+              lineWidth: 5,
+              size: 152,
+              animate: 2000,
+              onStep: function(from, to, percent) {     $(this.el).find('.percent').text(Math.round(percent));
+              }
+            })
+        }
 });
 
 //bar-chart 
-
-setTimeout(function start (){
-  
-  $('.bar').each(function(i){  
+ $('.bar').each(function(i){  
     var $bar = $(this);
     $(this).append('<span class="count"></span>')
     setTimeout(function(){
-      $bar.css('width', $bar.attr('data-percent'));      
+        $bar.css('width', $bar.attr('data-percent'));      
     }, i*100);
-  });
+});
 
 $('.count').each(function () {
     $(this).prop('Counter',0).animate({
         Counter: $(this).parent('.bar').attr('data-percent')
     }, {
-        duration: 2000,
+        duration: 000,
         easing: 'swing',
         step: function (now) {
             $(this).text(Math.ceil(now) +'%');
         }
     });
-});
+})
 
-}, 500)
 
  // portfolio
  $('.gallery ul li a').click(function() {
@@ -368,3 +367,6 @@ $('.count').each(function () {
          scrollTop: parseInt($("#top").offset().top)
      }, 400);
  });
+
+//wow.js 
+new WOW().init();
