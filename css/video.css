@@ -45,6 +45,10 @@ a {
 .video {
   margin: 0 auto; }
 
+video {
+  width: 634px;
+  height: 429px; }
+
 iframe {
   width: 634px;
   height: 429px; }
