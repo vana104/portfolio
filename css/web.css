@@ -11,11 +11,15 @@
   box-sizing: border-box; }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-weight: 300;
   line-height: 1.5;
   color: #333;
   margin: 0 auto; }
+
+p {
+  font-size: 17px;
+  font-weight: bold; }
 
 #banner {
   width: 100%;

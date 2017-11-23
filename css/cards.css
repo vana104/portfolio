@@ -3,9 +3,10 @@
   box-sizing: border-box; }
 
 a.view_work {
+  color: black;
   font-size: 20px; }
   a.view_work:hover {
-    color: black; }
+    color: #e1e1e1; }
 
 #wrapper {
   width: 100%;
@@ -131,21 +132,8 @@ a.view_work {
   transform-style: preserve-3d; }
 
 .front .inner p {
-  font-size: 2rem;
-  margin-bottom: 2rem;
+  font-size: 25px;
   position: relative; }
-
-.front .inner p:after {
-  content: '';
-  width: 4rem;
-  height: 2px;
-  position: absolute;
-  background: black;
-  display: block;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  bottom: -.75rem; }
 
 .front .inner span {
   color: rgba(255, 255, 255, 0.7);

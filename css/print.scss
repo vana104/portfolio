@@ -20,7 +20,7 @@ $secondary_color: #e1e1e1;
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: $primary_font;
   font-weight: 300;
   line-height: 1.5;
   color: #333;
@@ -36,6 +36,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     
+}
+
+p {
+    font-size: 17px;
+    font-weight: bold;
+
 }
 
 a {
