@@ -226,10 +226,9 @@ a {
     position: relative; }
 
   .pdf {
-    margin: 35px;
+    margin: 35px auto;
     display: flex;
     font-weight: bold;
-    text-decoration: underline;
     justify-content: center; } }
 @media only screen and (max-width: 425px) {
   .gallery ul li {
