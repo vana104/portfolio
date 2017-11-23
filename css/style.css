@@ -11,7 +11,7 @@ body {
 #banner_home {
   width: 100%;
   height: 950px;
-  background-image: url(../img/banner_test.jpg);
+  background-image: url(../img/home.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -68,7 +68,7 @@ button:hover {
 #skills {
   height: 600px;
   width: 100%;
-  background-image: url(../img/banner3.jpg);
+  background-image: url(../img/scroll.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
